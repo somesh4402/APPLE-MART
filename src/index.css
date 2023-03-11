@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+*{
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+ 
+
+
+
+/* navbar css  */
+
+.navbar{
+  position:absolute;
+  
+}
+
+.navbar-nav ul {
+	margin: 0;
+	padding : 0;
+}
+
+.navbar-nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar-nav li a{
+
+  font-size: 18px;
+  letter-spacing: 2px;
+    /* transition: all ease 3s; */
+    margin-left: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+  
+	display: block;
+	
+}
+
+
+
+
+.navbar-nav li a:hover{
+cursor: pointer;
+  border-bottom : 1px solid rgb(11, 11, 11);
+  
+}
+
+
+.navbar-brand{
+
+  letter-spacing: 3px;
+}
+/* home css  */
+
+
+video {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+
+
+.carousel{
+
+  margin-top: 5rem;
+
+}
+
+
+/* product css  */
+
+.products{
+
+  margin-top: 5rem;
+}
+
+/* card css  */
+
+.card{
+
+transition: all ease 0.5s;  
+}
+
+.card:hover{
+
+  cursor: pointer;
+ transform: scale(1);
+ box-shadow: 5px 5px 10px rgba(0.5, 0.5, 0.5, 0.5);  
+}
+
+
+
+/* ABOUT CSS  */
+
+.about{
+
+  margin-top: 7rem;
+
+}
+
+
+/* contact css  */
+
+.contact{
+  margin-top:6rem;
+}
+
+
+
+.product{
+
+  margin-top: 5rem;
+
+}
+
+.proDetails{
+
+  margin-top: 6rem;
+
+}
+
+.proimg{
+  transition: all ease 0.5s;
+}
+
+
+.proimg:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cart-menu{
+
+  width: 100% !important;
+
+}
+
+
+/* product div */
+
+
